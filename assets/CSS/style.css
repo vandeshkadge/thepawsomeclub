@@ -1,0 +1,369 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+    background: #000000 !important;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../Images/loading.gif") center no-repeat black;
+}
+
+
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  } */
+
+  #audio-control{
+    left:46rem;
+
+  }
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) {
+     header video {
+     display: none;
+    } 
+  }
+
+strong { font-weight: 600; }
+
+/* a, a:hover, a:focus {
+    color: #9b59b6;
+    text-decoration: none;
+    transition: all .3s;
+} */
+
+/* a:hover {
+  color: #9b59b6;
+  text-decoration: none;
+  transition: all .3s;
+} */
+
+h1, h2 {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    background: linear-gradient(90deg, #E183E9 0%, #8E2FFF 90.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-variant: small-caps;
+}
+
+h3{
+    margin-top: 0.62rem;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    line-height: 31px;
+    /* or 102% */
+    font-variant: small-caps;
+    
+    color: #000000;
+}
+
+hr {
+    border: 0.01rem solid #4B4B4B !important;
+    opacity: 1 !important;
+    margin: 3.37rem 6.0rem;
+}
+
+p{
+font-family: 'Cambria';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+overflow-wrap: break-word;
+}
+
+.nft,.tbl{
+    
+    background: linear-gradient(90deg, #E183E9 0%, #8E2FFF 90.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-inline-color: transparent;
+    }
+
+ .two-section{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 31px;
+    /* or 102% */
+    
+    /* display: flex;
+    align-items: center;
+    text-align: center;
+    font-variant: small-caps; */
+    background: linear-gradient(90deg, #E183E9 0%, #8E2FFF 90.63%);
+    margin-top: 3.7rem;
+    margin-left: 6.0rem ;
+    margin-right: 6.0rem;
+    }
+
+.txt{
+font-family: 'Cambria';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+color: #000000;
+}
+
+
+#grff{
+  background-image: url("../Images/grf2-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position:relative;
+  background-attachment: fixed;
+}
+
+/* Introduction to team */
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: white;
+  
+}
+
+.team4 .font-weight-medium {
+    font-weight: 700 !important;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.team4 .subtitle {
+    color: white;
+    padding-top: 1rem;
+    font-family: 'Montserrat';
+    line-height: 24px;
+	font-size: 30px;
+     font-weight: 400;
+}
+
+.team4 ul > li > a {
+  color: #8d97ad !important;
+  padding-right: 15px !important;
+  -webkit-transition: 0.1s ease-in !important;
+  -o-transition: 0.1s ease-in !important;
+  transition: 0.1s ease-in !important;
+}
+
+
+ a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px) !important;
+  transform: translate3d(0px, -5px, 0px) !important;
+	color: #316ce8 !important;
+}
+
+
+.img-fluid{
+    max-width: 75% !important;
+}
+
+.table td, .table th {
+
+    border-top: 0px solid #dee2e6 !important;
+    padding: 1rem;
+}
+
+
+
+.img-thumbnail{
+    background-color: black;
+    border: 0px;
+
+}
+.img-thumbnail img {
+  width: 90px;
+  height: 90px;
+  margin: auto;    
+  display: block;
+}
+
+.heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    background: linear-gradient(90deg, #E183E9 0%, #8E2FFF 90.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.social-img
+{
+    width: 90%;
+    height: auto;
+}
+
+
+/* #tnc-footer{
+  text-align: left;
+}
+
+#rights-footer{
+  text-align: center;
+}
+
+#lab-footer{
+  text-align: right;
+} */
+
+
+
+@media (max-width: 480px)  { /* smartphones, iPhone, portrait 480x320 phones */
+  br {
+    display: none;
+}
+.loading img{
+  visibility: hidden;
+}
+
+.loading{
+  /* height: 70vh; */
+  background: url("../Images/mobile-loading.gif") no-repeat center center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+hr {
+  border: 0.01rem solid #4B4B4B !important;
+  opacity: 1 !important;
+  margin: 3.37rem 2.0rem;
+}
+
+header {
+  height: 100vh;
+             background: url("../Images/mobile-video.png") no-repeat center center;
+             background-size: cover;
+ } 
+
+ #audio-control{
+  visibility: hidden;
+}
+
+#last{
+  padding:0.5rem;
+  justify-content: flex-start !important;
+}
+.p-4{
+  padding: 0.5rem !important;
+}
+
+#grff{
+  background-image: url(../Images/grf2-mobile.jpg) !important;
+}
+
+#gif-img{
+  margin-top:0rem !important;
+  padding-left: 1.5rem;
+  }
+
+.two-section{
+margin: 3rem;
+}
+
+  
+.icons{
+  padding-left: 5rem !important ;
+}
+
+.footer-mob{
+text-align: center !important;
+max-width: fit-content;
+flex: content;
+}
+
+
+}
+
+@media (min-width: 600px) and (max-width:961px)
+{
+  header {
+    height: 100vh;
+               background: url("../Images/mobile-video.png") no-repeat center center;
+               background-size: cover;
+   } 
+  
+   #audio-control{
+    visibility: hidden;
+  }
+
+#gif-img{
+  margin-top: 0% !important;
+}
+}
